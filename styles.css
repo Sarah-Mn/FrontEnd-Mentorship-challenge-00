@@ -1,0 +1,150 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width: 805px;
+    height: 681px;
+    transform: translate(-50%, -50%);
+    background-color:#FFFDFD;
+    border-radius: 1px;
+}
+
+h1{
+    position: absolute;
+    top:103px;
+    left:301px;
+    width:203px;
+    height:38px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37.5px;
+    font-family: roboto, arial, helvetica, sans-serif;
+}
+
+.rect-2{
+    position:absolute;
+    top:167px;
+    left:130px;
+    width:555px;
+    height:353px;
+    background-color: #E0EDFA;
+    border: 1px solid #866F6F;
+    border-radius:9px;
+    box-sizing: border-box;
+}
+
+.title input{
+    position:absolute;
+    top: 20px;
+    left: 25px;
+    width:425px;
+    height:40px;
+    background-color: #FFFFFF;
+    border:none;
+    border-radius:5px;
+}
+
+.title input::placeholder{
+    position:absolute;
+    width:35px;
+    height: 21px;
+    padding: 10px 368px 9px 22px;
+    font-family: roboto, arial, helvetica, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height:21px;
+    color: #867E7E;
+}
+
+.title button{
+    position:absolute;
+    top:20px;
+    left:458px;
+    width:73px;
+    height:40px;
+    border:none;
+    border-radius:5px;
+    background-color: #6FDA9A;
+    color: #000000;
+    font-weight: 400;
+    line-height:21.09px;
+    font-family: roboto, arial, helvetica, sans-serif;
+}
+
+.task_1{
+    position: absolute;
+    top:93px;
+    left:25px;
+}
+
+.task_2{
+    position: absolute;
+    top:142px;
+    left:25px;
+}
+
+.task_3{
+    position: absolute;
+    top:191px;
+    left:25px;
+}
+
+.task input{
+    width:505px;
+    height:44px;
+    background-color:#FFFFFF;
+    border:none;
+    border-radius:5px;
+}
+
+.task input::placeholder{
+    position:absolute;
+    width:35px;
+    height: 21px;
+    padding: 10px 368px 9px 22px;
+    font-family: roboto, arial, helvetica, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height:21.09px;
+    color: #867E7E;
+    font-weight: 400;
+}
+
+.task .edit{
+    position:absolute;
+    top:9px;
+    left:362px;
+    width:56px;
+    height:26px;
+    background-color: #6FC0DA;
+    border:none;
+    border-radius: 5px;
+    color: #FCFCFC;
+    line-height:16px;
+    font-family: roboto, arial, helvetica, sans-serif;
+    font-size:14px;
+    font-weight:400;
+    z-index: 1000;
+}
+
+.task .delete{
+    position:absolute;
+    top:9px;
+    left:425px;
+    width:56px;
+    height:26px;
+    background-color: #DA6FA2;
+    border:none;
+    border-radius: 5px;
+    color: #FCFCFC;
+    line-height:16px;
+    font-family: roboto, arial, helvetica, sans-serif;
+    font-size:14px;
+    font-weight:400;
+    z-index: 1000;
+}
